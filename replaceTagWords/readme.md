@@ -46,7 +46,7 @@ String.prototype.replaceAll = function(string, newString) {
 ```
 
 ### 如何使用
-![使用示例](http://github.com/CNCrazyMoon/codes/raw/master/replaceTagWords/my_code_replaceTagWords.png)
+![使用示例](my_code_replaceTagWords.png)
 
 ## 结语
 
