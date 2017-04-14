@@ -20,8 +20,36 @@ h2,p{font-size: 1.5em;}
 	overflow: hidden;
 }
 
-#graph1,#graph2 {
+.graph {
   width: 100%;
   height: 400px;
   text-align: center;
+  padding: 10px;
+}
+
+.download {
+	width: 80px;
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+	border-radius: 4px;
+	background: #22C1E7;
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	padding: 5px;
+}
+.download:focus,.download:hover {
+	background: #2396C6;
+}
+.get_png {
+	bottom: 150px;
+}
+.download_png {
+	bottom: 100px;
+}
+
+body>img {
+	width: 100%;
 }
